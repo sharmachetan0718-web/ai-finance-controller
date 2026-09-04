@@ -1,0 +1,141 @@
+{
+  "Chetan_Sharma": {
+    "password_hash": "8ccdedae463f139c4c8c626202d631bcbd050d15a4ae18650100c10fef9f99b4",
+    "custom_payments": [
+      {
+        "payment_id": "P0121",
+        "merchant_id": "M0121",
+        "amount": 5000.0,
+        "payment_date": "2026-08-31",
+        "status": "SUCCESS"
+      }
+    ],
+    "custom_settlements": [
+      {
+        "settlement_id": "SC0001",
+        "payment_id": "P0121",
+        "settled_amount": 4500.0,
+        "fee": 0.0,
+        "settlement_date": "2026-08-31",
+        "settlement_status": "SETTLED"
+      },
+      {
+        "settlement_id": "SC0002",
+        "payment_id": "P0121",
+        "settled_amount": 4500.0,
+        "fee": 0.0,
+        "settlement_date": "2026-08-31",
+        "settlement_status": "SETTLED"
+      }
+    ],
+    "audit_log": [
+      {
+        "timestamp": "2026-08-31 12:06:14",
+        "type": "TRANSACTION ADDED",
+        "payment_id": "P0121",
+        "severity": "INFO",
+        "action": "Transaction added through dashboard input."
+      },
+      {
+        "timestamp": "2026-08-31 12:06:55",
+        "type": "TRANSACTION UPDATED",
+        "payment_id": "P0121",
+        "severity": "INFO",
+        "action": "Transaction updated through dashboard input."
+      },
+      {
+        "timestamp": "2026-08-31 12:07:13",
+        "type": "TRANSACTION AI ANALYSIS",
+        "payment_id": "P0121",
+        "severity": "MEDIUM",
+        "action": "Verify the settlement ledger against the payment record with the acquirer or gateway to confirm whether the \u20b9500.0 difference is due to a fee deduction, partial settlement, or processing error, and raise a chargeback or adjustment if funds remain unreconciled."
+      }
+    ],
+    "session_token": "BHy8Oop9aYCSeFMh-2n5ki-2Lpn2Bv1ADqLBRIl61h8",
+    "transaction_overrides": {
+      "P0121": {
+        "merchant_id": "M0121",
+        "amount": 5000.0,
+        "settled_amount": 4500.0,
+        "settlement_count": 1
+      }
+    },
+    "deleted_payment_ids": []
+  },
+  "ChetanSharma": {
+    "password_hash": "8ccdedae463f139c4c8c626202d631bcbd050d15a4ae18650100c10fef9f99b4",
+    "custom_payments": [],
+    "custom_settlements": [],
+    "audit_log": [
+      {
+        "timestamp": "2026-09-04 20:43:25",
+        "type": "BATCH AI SUMMARY",
+        "payment_id": "ALL",
+        "severity": "HIGH",
+        "action": "Prioritize the 8 high-priority exceptions immediately and escalate the 43 amount-difference cases for root-cause review of the matching logic before close."
+      },
+      {
+        "timestamp": "2026-09-04 20:44:25",
+        "type": "TRANSACTION AI ANALYSIS",
+        "payment_id": "P0019",
+        "severity": "UNKNOWN",
+        "action": "Manual finance operations review required."
+      },
+      {
+        "timestamp": "2026-09-04 21:30:24",
+        "type": "BATCH AI SUMMARY",
+        "payment_id": "ALL",
+        "severity": "HIGH",
+        "action": "Prioritize reviewing high\u2011priority exceptions and reconciling missing/duplicate settlements to resolve mismatches and reduce the amount at risk."
+      }
+    ],
+    "transaction_overrides": {},
+    "deleted_payment_ids": [],
+    "session_token": "EOkHVxaM68sibVz_Xxy-GpeKwlbe_a_COrqL1QXZtt0"
+  },
+  "Chetan_sharma": {
+    "password_hash": "dd262a27d2ffdd17ac95369ce7c761a744f41abddc8994e37883590504e82111",
+    "custom_payments": [],
+    "custom_settlements": [],
+    "audit_log": [
+      {
+        "timestamp": "2026-09-04 21:51:35",
+        "type": "BATCH AI SUMMARY",
+        "payment_id": "ALL",
+        "severity": "HIGH",
+        "action": "Prioritize investigation of high-priority items (8) and resolve missing/duplicate settlements to restore payment accuracy and reduce exception rates."
+      },
+      {
+        "timestamp": "2026-09-04 22:40:11",
+        "type": "BATCH AI SUMMARY",
+        "payment_id": "ALL",
+        "severity": "HIGH",
+        "action": "Prioritize investigation of the 8 high-priority exceptions and conduct a root cause analysis on the 43 amount differences to reduce the $251,786 exposure and improve match rate."
+      },
+      {
+        "timestamp": "2026-09-04 22:51:48",
+        "type": "BATCH AI SUMMARY",
+        "payment_id": "ALL",
+        "severity": "UNKNOWN",
+        "action": "Manual finance operations review required."
+      },
+      {
+        "timestamp": "2026-09-04 22:52:01",
+        "type": "BATCH AI SUMMARY",
+        "payment_id": "ALL",
+        "severity": "HIGH",
+        "action": "Conduct immediate review of payment matching failures and prioritize resolution of high-priority exceptions to improve reconciliation accuracy."
+      },
+      {
+        "timestamp": "2026-09-04 22:52:55",
+        "type": "TRANSACTION AI ANALYSIS",
+        "payment_id": "P0006",
+        "severity": "LOW",
+        "action": "Mark the exception as resolved and close the reconciliation item."
+      }
+    ],
+    "transaction_overrides": {},
+    "deleted_payment_ids": [],
+    "session_token": "WlT9bWOIJvfXda_x8bOh_FmAdNSmB0LhEsifm0CDLu8"
+  }
+}
